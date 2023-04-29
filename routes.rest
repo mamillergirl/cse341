@@ -1,0 +1,7 @@
+GET http://localhost:8080/contacts/
+###
+GET http://localhost:8080/contacts/6449e93c2c37781d7140fae0
+###
+GET http://localhost:8080/contacts/6449e9b62c37781d7140fae1
+###
+GET http://localhost:8080/contacts/6449ea152c37781d7140fae2
