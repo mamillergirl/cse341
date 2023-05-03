@@ -37,3 +37,27 @@ Content-Type: application/json
 }
 ###
 DELETE http://localhost:8080/contacts/6449ea152c37781d7140fae2
+###
+POST https://cse341-test-7wq9.onrender.com/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName" : "Lauren",
+    "lastName": "Dulgarian",
+    "email": "ldulgarian@byui.edu",
+    "favoriteColor": "orange",
+    "birthday": "October 7th"
+}
+###
+PUT https://cse341-test-7wq9.onrender.com/contacts/6451af43d189032fca07ce03 HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName" : "Lauren",
+    "lastName": "Dulgarian",
+    "email": "ldulgarian@byui.edu",
+    "favoriteColor": "yellow",
+    "birthday": "October 7th"
+}
+###
+DELETE https://cse341-test-7wq9.onrender.com/contacts/6451af43d189032fca07ce03
